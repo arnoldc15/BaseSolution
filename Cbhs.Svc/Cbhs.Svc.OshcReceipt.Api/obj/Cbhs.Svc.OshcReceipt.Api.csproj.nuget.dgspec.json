@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Api\\Cbhs.Svc.OshcReceipt.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Api\\Cbhs.Svc.OshcReceipt.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Api\\Cbhs.Svc.OshcReceipt.Api.csproj",
+        "projectName": "Cbhs.Svc.OshcReceipt.Api",
+        "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Api\\Cbhs.Svc.OshcReceipt.Api.csproj",
+        "packagesPath": "C:\\Users\\arnold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arnold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cbhs-teamcity:8099/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj"
+              },
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\Cbhs.Svc.OshcReceipt.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\Cbhs.Svc.OshcReceipt.Infrastructure.csproj"
+              },
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\Cbhs.Svc.OshcReceipt.Persistence.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\Cbhs.Svc.OshcReceipt.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AttributeRouting.Core.Http": {
+              "target": "Package",
+              "version": "[3.5.6, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj",
+        "projectName": "Cbhs.Svc.OshcReceipt.Application",
+        "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj",
+        "packagesPath": "C:\\Users\\arnold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arnold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cbhs-teamcity:8099/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj",
+        "projectName": "Cbhs.Svc.OshcReceipt.Domain",
+        "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj",
+        "packagesPath": "C:\\Users\\arnold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arnold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cbhs-teamcity:8099/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\Cbhs.Svc.OshcReceipt.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\Cbhs.Svc.OshcReceipt.Infrastructure.csproj",
+        "projectName": "Cbhs.Svc.OshcReceipt.Infrastructure",
+        "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\Cbhs.Svc.OshcReceipt.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\arnold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arnold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cbhs-teamcity:8099/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\Cbhs.Svc.OshcReceipt.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\Cbhs.Svc.OshcReceipt.Persistence.csproj",
+        "projectName": "Cbhs.Svc.OshcReceipt.Persistence",
+        "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\Cbhs.Svc.OshcReceipt.Persistence.csproj",
+        "packagesPath": "C:\\Users\\arnold\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arnold\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://cbhs-teamcity:8099/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Application\\Cbhs.Svc.OshcReceipt.Application.csproj"
+              },
+              "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj": {
+                "projectPath": "C:\\Users\\arnold\\source\\repos\\vs2019\\Cbhs.Svc\\Cbhs.Svc.OshcReceipt.Domain\\Cbhs.Svc.OshcReceipt.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
